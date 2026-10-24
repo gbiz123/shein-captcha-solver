@@ -6,16 +6,13 @@ The purpose is to make integrating SadCaptcha into your Selenium, Playwright, or
 Instructions for integrating with Selenium, Playwright, and Async Playwright are described below in their respective sections.
 
 The end goal of this tool is to solve every single shein captcha. 
-Currently we are able to solve the crawling image and the puzzle slide:
+Currently we are able to solve icon captcha.
 
 <div align="center">
-    <img src="https://sadcaptcha.b-cdn.net/shein-image-crawl-captcha.png" width="200px" height="150px" alt="shein Captcha Solver">
-    <img src="https://sadcaptcha.b-cdn.net/shein-puzzle-slide-captcha.png" width="200px" height="150px" alt="shein Captcha Solver">
+    <img src="https://sadcaptcha.b-cdn.net/shein-icon-captcha-1.png" width="200px" height="150px" alt="shein Captcha Solver">
 </div>
 
-The Crawling Image challenge is the one where there is a puzzle piece that travels in an unpredictable trajectory, and there are two possible locations where the solution may be.
-This often shows up at login.
-The puzzle slide is just a simple challenge that asks you to move the piece to the correct location.
+The icon captcha requires you to click icons on a canvas in the order they appear in the bar.
     
 ## Requirements
 - Python >= 3.10
