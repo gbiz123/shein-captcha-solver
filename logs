@@ -19,8 +19,8 @@ DEBUG    nodriver.core.browser:browser.py:125 Session object initialized: {'conf
 	autodiscover_targets = True
 	user_agent = Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
 	browser_args = ['--disable-breakpad', '--disable-dev-shm-usage', '--disable-features=DisableLoadExtensionCommandLineSwitch', '--disable-infobars', '--disable-search-engine-choice-screen', '--disable-session-crashed-bubble', '--homepage=about:blank', '--load-extension=/home/gregb/ToughdataLLC/SadCaptcha/shein-captcha-solver-chrome-extension/', '--no-default-browser-check', '--no-first-run', '--no-pings', '--no-service-autorun', '--password-store=basic', '--remote-allow-origins=*']
-	user_data_dir = /tmp/uc_1b2yz_7k
-	uses_custom_data_dir = False, 'info': None, '_target': None, '_process': None, '_process_pid': None, '_keep_user_data_dir': None, '_is_updating': <asyncio.locks.Event object at 0x7ff82db81400 [unset]>, 'connection': None, 'session_id': None, 'websocket_url': None, 'handlers': defaultdict(<class 'list'>, {}), 'lock': <asyncio.locks.Lock object at 0x7ff82db81550 [unlocked]>, 'socket': None, 'target': '', 'parent': None, '__count__': count(0), '_auto_attach': False, '_transactions': [], '_targets': [], '_mapper': {}, '_tx_by_id': {}, '_listener_task': None}
+	user_data_dir = /tmp/uc_bcbj3ilk
+	uses_custom_data_dir = False, 'info': None, '_target': None, '_process': None, '_process_pid': None, '_keep_user_data_dir': None, '_is_updating': <asyncio.locks.Event object at 0x7f4dcd8752b0 [unset]>, 'connection': None, 'session_id': None, 'websocket_url': None, 'handlers': defaultdict(<class 'list'>, {}), 'lock': <asyncio.locks.Lock object at 0x7f4dcd875400 [unlocked]>, 'socket': None, 'target': '', 'parent': None, '__count__': count(0), '_auto_attach': False, '_transactions': [], '_targets': [], '_mapper': {}, '_tx_by_id': {}, '_listener_task': None}
 DEBUG    nodriver.core.browser:browser.py:320 BROWSER EXECUTABLE PATH: /usr/bin/chromium-browser
 INFO     nodriver.core.browser:browser.py:349 starting
 	executable :/usr/bin/chromium-browser
@@ -38,32 +38,32 @@ arguments:
 	--disable-dev-shm-usage
 	--disable-session-crashed-bubble
 	--disable-search-engine-choice-screen
-	--user-data-dir=/tmp/uc_1b2yz_7k
+	--user-data-dir=/tmp/uc_bcbj3ilk
 	--disable-session-crashed-bubble
 	--disable-features=IsolateOrigins,site-per-process
 	--load-extension=/home/gregb/ToughdataLLC/SadCaptcha/shein-captcha-solver-chrome-extension/
 	--disable-features=DisableLoadExtensionCommandLineSwitch
 	--remote-debugging-host=127.0.0.1
-	--remote-debugging-port=51411
+	--remote-debugging-port=47617
 DEBUG    websockets.client:protocol.py:178 = connection is CONNECTING
-DEBUG    websockets.client:client.py:294 > GET /devtools/browser/a61ee41c-1381-475b-accf-5b1bf0f9ea4c HTTP/1.1
-DEBUG    websockets.client:client.py:296 > Host: 127.0.0.1:51411
+DEBUG    websockets.client:client.py:294 > GET /devtools/browser/428cc7bd-d251-4754-8e58-f106d9f3d9c6 HTTP/1.1
+DEBUG    websockets.client:client.py:296 > Host: 127.0.0.1:47617
 DEBUG    websockets.client:client.py:296 > Upgrade: websocket
 DEBUG    websockets.client:client.py:296 > Connection: Upgrade
-DEBUG    websockets.client:client.py:296 > Sec-WebSocket-Key: sKV2AlCdtRqdQB8Pzdtkjw==
+DEBUG    websockets.client:client.py:296 > Sec-WebSocket-Key: nqNcC73j5n5LWKuauYzvdw==
 DEBUG    websockets.client:client.py:296 > Sec-WebSocket-Version: 13
 DEBUG    websockets.client:client.py:296 > Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
 DEBUG    websockets.client:client.py:296 > User-Agent: Python/3.14 websockets/16.0
 DEBUG    websockets.client:client.py:320 < HTTP/1.1 101 WebSocket Protocol Handshake
 DEBUG    websockets.client:client.py:322 < Upgrade: WebSocket
 DEBUG    websockets.client:client.py:322 < Connection: Upgrade
-DEBUG    websockets.client:client.py:322 < Sec-WebSocket-Accept: 4L0Aa2fExYXrg71fDMFzPDxqb+s=
+DEBUG    websockets.client:client.py:322 < Sec-WebSocket-Accept: fA9G4rmXAlHp4peR3UB6kZkOGKI=
 DEBUG    websockets.client:client.py:322 < Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits=15
 DEBUG    websockets.client:protocol.py:178 = connection is OPEN
 DEBUG    websockets.client:protocol.py:755 > TEXT '{"method": "Target.attachToBrowserTarget", "params": [], "id": 0}' [65 bytes]
 DEBUG    websockets.client:protocol.py:609 < TEXT '{"method":"Target.attachedToTarget","params":{"...ingForDebugger":false}}' [263 bytes]
-DEBUG    websockets.client:protocol.py:609 < TEXT '{"id":0,"result":{"sessionId":"6FB860BC2223841C4503C882D41BA504"}}' [66 bytes]
-DEBUG    websockets.client:protocol.py:755 > TEXT '{"method": "Target.getTargets", "params": {}, "...3841C4503C882D41BA504"}' [103 bytes]
-DEBUG    websockets.client:protocol.py:609 < TEXT '{"id":1,"result":{"targetInfos":[{"targetId":"4...3841C4503C882D41BA504"}' [552 bytes]
+DEBUG    websockets.client:protocol.py:609 < TEXT '{"id":0,"result":{"sessionId":"21DB32016E376E15E6FAD257DD4AB66E"}}' [66 bytes]
+DEBUG    websockets.client:protocol.py:755 > TEXT '{"method": "Target.getTargets", "params": {}, "...76E15E6FAD257DD4AB66E"}' [103 bytes]
+DEBUG    websockets.client:protocol.py:609 < TEXT '{"id":1,"result":{"targetInfos":[{"targetId":"3...76E15E6FAD257DD4AB66E"}' [552 bytes]
 DEBUG    shein_captcha_solver.launcher:launcher.py:42 created new nodriver Browser patched with sadcaptcha
 waiting for enter
